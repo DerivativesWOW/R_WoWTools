@@ -12,10 +12,14 @@ These are just some derpy utility scripts written in R to...
 The idea here is to cocerce an 8 panel plot to actually function as a raid roster, 
 displaying character names and classes via color, thus displaying what positions 
 are currently filled/scheduled, and what spots are available. By taking a simple 
-text <.csv>, the script generates a png as out. 
+text <.csv>, the script generates a png as out. Check the sample data folder for 
+roster.csv for an example of the in-data; just four columns of character name, class,
+group, position. It can only handle at present the 8 horde classes in basic classic wow.
 
 **Usage**
 ```
-Rscript raid_png.R <.csv> <out.png>
+Rscript raid_png.R roster.csv out.png
 ```
 
+**Output**
+<img src='assets/sf2_logo.png' align='center' width='600px' />
