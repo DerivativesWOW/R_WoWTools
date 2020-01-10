@@ -22,4 +22,5 @@ Rscript raid_png.R roster.csv out.png
 ```
 
 **Output**
+<br><br>
 <img src='sample_data/out.png' align='center' width='600px'/>
